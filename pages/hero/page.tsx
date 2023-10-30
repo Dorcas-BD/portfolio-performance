@@ -28,7 +28,6 @@ const Hero = () => {
           </div>
         </div>
         <div className="home-img">
-          <div className="computer-animation"></div>
           <img className="hero-img" src="/perfil.webp" alt="Profile Image" />
         </div>
       </div>

@@ -145,10 +145,10 @@ a {
   margin: 0 30px;
   font-size: 30px;
 }
-
-.hero-img {
-  width: 400px;
-  height: 400px;
+.home-img {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
   box-sizing: border-box;
   border: 5px white solid;
   border-radius: 50%;
@@ -157,6 +157,11 @@ a {
   box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
   animation: float 6s ease-in-out infinite;
   z-index: 1;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
 }
 
 @keyframes float {
@@ -597,7 +602,7 @@ a {
     font-size: 14px;
   }
 
-  .hero-img {
+  .home-img {
     width: 150px;
     height: 150px;
     margin: 0;
@@ -760,7 +765,7 @@ a {
   .home-heading span {
     font-size: 28px;
   }
-  .hero-img {
+  .home-img {
     width: 320px;
     height: 320px;
   }
@@ -799,7 +804,7 @@ a {
     font-size: 15px;
   }
 
-  .hero-img {
+  .home-img {
     width: 350px;
     height: 350px;
   }
