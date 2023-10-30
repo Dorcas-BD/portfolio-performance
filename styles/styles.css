@@ -40,6 +40,7 @@ html {
   bottom: 30px;
   right: 110px;
   font-size: 20px;
+  font-display: swap;
   font-family: "Roboto Slab", serif;
 }
 
@@ -80,6 +81,7 @@ a {
   text-align: left;
 }
 .hero-text .hero-text-p {
+  font-display: swap;
   font-family: "Roboto Slab", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -87,6 +89,7 @@ a {
 
 .hero-text h1 {
   line-height: 30px;
+  font-display: swap;
   font-family: "Montserrat", "san serif";
   font-weight: 600;
 }
@@ -101,6 +104,7 @@ a {
   color: #fe8f5b;
   font-size: 40px;
   font-weight: 700;
+  font-display: swap;
   font-family: "Playfair Display", "san serif";
   margin-left: 10px;
 }
@@ -115,6 +119,7 @@ a {
   color: #ffffff;
   border-radius: 6px;
   font-size: 18px;
+  font-display: swap;
   font-family: "Montserrat", serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -250,6 +255,7 @@ a {
 
 .about-container .tab-title {
   font-size: 24px;
+  font-display: swap;
   font-family: "Roboto Slab", "serif";
   font-weight: 400;
   cursor: pointer;
@@ -269,11 +275,13 @@ a {
 }
 .about-container .about-summary h3 {
   font-size: 25px;
+  font-display: swap;
   font-family: "Roboto Slab", serif;
   font-weight: 600;
 }
 .about-container .about-summary p {
   font-size: 18px;
+  font-display: swap;
   font-family: "Roboto Slab", serif;
   font-weight: 300;
 }
@@ -287,12 +295,14 @@ a {
 .about-container .tab-content li span {
   color: #b1400b;
   font-size: 22px;
+  font-display: swap;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 .about-container .tab-content li {
   font-size: 18px;
   padding: 10px;
+  font-display: swap;
   font-family: "Roboto Slab", serif;
   font-weight: 300;
 }
@@ -326,6 +336,7 @@ a {
 
 .work-title {
   font-size: 24px;
+  font-display: swap;
   font-family: "Roboto Slab", serif;
   font-weight: 600;
   margin-bottom: 10px;
@@ -334,6 +345,7 @@ a {
 .work-description {
   font-size: 15px;
   margin-bottom: 10px;
+  font-display: swap;
   font-family: "Roboto Slab", serif;
   font-weight: 300;
 }
@@ -341,6 +353,7 @@ a {
 .technologies {
   margin: 15px 0;
   font-size: 18px;
+  font-display: swap;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
 }
@@ -387,11 +400,13 @@ a {
 
 .contact__data .contact__subtitle {
   margin-bottom: 5px;
+  font-display: swap;
   font-family: "Roboto Slab", serif;
 }
 
 .contact__data .contact__description {
   padding: 5px 0 0 10px;
+  font-display: swap;
   font-family: "Roboto Slab", serif;
   font-weight: 300;
 }
@@ -411,6 +426,7 @@ a {
   border-radius: 10px;
   resize: none;
   outline: none;
+  font-display: swap;
   font-family: "Roboto Slab", serif;
   font-weight: 300;
 }
@@ -433,6 +449,7 @@ a {
   border-radius: 10px;
   cursor: pointer;
   font-size: 20px;
+  font-display: swap;
   font-family: "Montserrat", serif;
   font-weight: 500;
   outline: none;
@@ -458,6 +475,7 @@ a {
 
 .footer__title {
   font-size: 24px;
+  font-display: swap;
   font-family: "Roboto Slab", serif;
   font-weight: 600;
   margin-bottom: 10px;
@@ -476,6 +494,7 @@ a {
 
 .footer__copy {
   font-size: 14px;
+  font-display: swap;
   font-family: "Roboto Slab", serif;
   font-weight: 300;
   margin-top: 10px;
@@ -487,6 +506,7 @@ a {
 
 .section-title {
   font-size: 32px;
+  font-display: swap;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #ab400f;
@@ -624,11 +644,15 @@ a {
   }
   .about-container .about-summary h3 {
     font-size: 18px;
+
+    font-display: swap;
     font-family: "Roboto Slab", serif;
     font-weight: 600;
   }
   .about-container .about-summary p {
     font-size: 14px;
+
+    font-display: swap;
     font-family: "Roboto Slab", serif;
     font-weight: 300;
     text-align-last: left;
@@ -675,6 +699,8 @@ a {
 
   .work-title {
     font-size: 18px;
+
+    font-display: swap;
     font-family: "Roboto Slab", serif;
     font-weight: 600;
     margin-bottom: 10px;
@@ -683,6 +709,8 @@ a {
   .work-description {
     font-size: 14px;
     margin-bottom: 10px;
+
+    font-display: swap;
     font-family: "Roboto Slab", serif;
     font-weight: 300;
   }
@@ -690,6 +718,8 @@ a {
   .technologies {
     margin: 15px 0;
     font-size: 14px;
+
+    font-display: swap;
     font-family: "Roboto Slab", serif;
     font-weight: 400;
   }

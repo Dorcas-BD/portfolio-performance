@@ -29,13 +29,14 @@ const Hero = () => {
         </div>
         <div className="home-img">
           <div className="computer-animation"></div>
-          <img className="hero-img" src="/perfil.png" />
+          <img className="hero-img" src="/perfil.webp" alt="Profile Image" />
         </div>
       </div>
       <div className="home-social">
         <a
           href="https://www.linkedin.com/in/dorcasbamisile"
           target="_blank"
+          aria-label="Link to my linkedin profile"
           className="home-social-icon"
         >
           <i className="fab fa-linkedin"></i>
@@ -43,6 +44,7 @@ const Hero = () => {
         <a
           href="https://www.twitter.com/Dorcas_BD"
           target="_blank"
+          aria-label="Link to my Github profile page"
           className="home-social-icon"
         >
           <i className="fab fa-twitter"></i>
@@ -50,6 +52,7 @@ const Hero = () => {
         <a
           href="https://www.github.com/Dorcas-BD"
           target="_blank"
+          aria-label="Link to my twitter profile"
           className="home-social-icon"
         >
           <i className="fab fa-github"></i>
