@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Link as ScrollLink } from "next-scroll";
@@ -74,4 +74,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default memo(NavBar);

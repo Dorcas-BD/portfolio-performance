@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 interface Contact {
   title: string;
@@ -58,4 +58,4 @@ const Contacts: React.FC = () => {
   );
 };
 
-export default Contacts;
+export default memo(Contacts);

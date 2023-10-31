@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import "../../styles/styles.css";
 import Link from "next/link";
 import "@fortawesome/fontawesome-free/css/all.css";
@@ -61,4 +61,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default memo(Hero);

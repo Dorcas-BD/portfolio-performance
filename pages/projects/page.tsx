@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 interface Project {
   title: string;
@@ -106,4 +106,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default memo(Projects);

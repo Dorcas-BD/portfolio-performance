@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { memo, useState } from "react";
 import "../../styles/styles.css";
 
 interface Skill {
@@ -147,4 +147,4 @@ const About: React.FC = () => {
   );
 };
 
-export default About;
+export default memo(About);
